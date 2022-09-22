@@ -1,48 +1,70 @@
 body {
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     margin: 0 0 0 0;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #head {
     background-color: red;
     height: 10vh;
+    width: 100vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #main {
     background-color: rgb(255, 255, 255);
     height: 70vh;
+    width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #footer {
-    background-color: green;
-    height: 100vh;
+    background-color: rgb(216, 212, 212);
+    height: 20vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }
+
 
 .head-c {
     background-color: brown;
 }
 
 #head-izq {
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     width: 50vw;
-    height: 10vh;
+    height: 25vh;
 }
 
 #head-der {
     background-color: rgb(255, 255, 255);
     width: 50vw;
-    height: 10vh;
+    height: 25vh;
+    float: right;
+    
 }
 
 #main-info {
     background-color: rgb(255, 255, 255);
-    width: 50vw;
-    height: 70vh;
+    width: 100vw;
+    height: 50vh;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #footer-link {
@@ -61,22 +83,27 @@ body {
 }
 
 #footer-link-der {
-    background-color: darkmagenta;
+    background-color: rgb(255, 255, 255);
     width: 30vw;
 
 }
 
 img {
     justify-content: center;
-    width: 25vw;
+    width: 30vw;
     height: 20vh;
 }
 
 button{
-    width: 70vw;
+    width: 15em;
     height: 5vh;
    align-items: center;
-   
-   
-
+}
+#imagenbarra{
+    width: 20vw;
+    height: 10px;
+}
+#head-cen{
+    width: 10vw;
+    height: 20vh;
 }
