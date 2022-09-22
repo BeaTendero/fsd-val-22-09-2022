@@ -1,0 +1,82 @@
+body {
+    background-color: aqua;
+    margin: 0 0 0 0;
+}
+
+#head {
+    background-color: red;
+    height: 10vh;
+    display: flex;
+}
+
+#main {
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    background-color: green;
+    height: 100vh;
+}
+
+.head-c {
+    background-color: brown;
+}
+
+#head-izq {
+    background-color: blueviolet;
+    width: 50vw;
+    height: 10vh;
+}
+
+#head-der {
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 10vh;
+}
+
+#main-info {
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-link {
+    background-color: chocolate;
+    display: flex;
+}
+
+#footer-link-izq {
+    background-color: cyan;
+    width: 30vw;
+}
+
+#footer-link-mid {
+    background-color: coral;
+    width: 40vw;
+}
+
+#footer-link-der {
+    background-color: darkmagenta;
+    width: 30vw;
+
+}
+
+img {
+    justify-content: center;
+    width: 25vw;
+    height: 20vh;
+}
+
+button{
+    width: 70vw;
+    height: 5vh;
+   align-items: center;
+   
+   
+
+}
